@@ -7,8 +7,14 @@ $neutral500: "#74798c";
 $neutral800: "#2b2d30";
 $neutral900: "#020203";
 
+$sportsee-red: "#e60000";
+
 .color-primary500 {
   color: $primary500;
+}
+
+.color-sportsee-red {
+  color: $sportsee-red;
 }
 
 .color-neutral100 {
@@ -37,6 +43,10 @@ $neutral900: "#020203";
 
 .bg-primary500 {
   background-color: $primary500;
+}
+
+.bg-sportsee-red {
+  background-color: $sportsee-red;
 }
 
 .bg-neutral100 {

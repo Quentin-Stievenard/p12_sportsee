@@ -2,7 +2,7 @@
 
 @mixin activities-container {
   position: relative;
-  height: 100%;
+  height: fit-content;
   background: $neutral100;
 
   &.h2 {
@@ -53,10 +53,16 @@
   @include activities-container;
 }
 
-@mixin tooltip-container {
-  border: 2px solid rgba(255, 255, 255, 0.3);
+.black-dot,
+.red-dot {
+  height: 8px;
+  width: 8px;
+  background-color: #282d30;
+  border-radius: 50%;
+  display: inline-block;
+  margin-right: 12px;
 }
 
-.tooltip-container {
-  @include tooltip-container;
+.red-dot {
+  background-color: #e60000 !important;
 }

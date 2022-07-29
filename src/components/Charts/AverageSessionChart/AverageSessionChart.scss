@@ -1,0 +1,27 @@
+@mixin line-chart-container {
+  position: relative;
+  background-color: #ff0000;
+  width: fit-content;
+  border-radius: 5px;
+
+  .title-line-chart {
+    position: absolute;
+    top: 1.5rem;
+    left: 2rem;
+
+    margin: 0;
+
+    color: rgba(255, 255, 255, 0.6);
+    font-size: 1rem;
+    font-weight: 500;
+
+    @media (max-width: 1340px) {
+      top: 1rem;
+      left: 1.5rem;
+    }
+  }
+}
+
+.line-chart-container {
+  @include line-chart-container;
+}

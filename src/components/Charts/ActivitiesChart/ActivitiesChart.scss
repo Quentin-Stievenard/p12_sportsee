@@ -1,0 +1,9 @@
+@mixin radar-chart-container {
+  background-color: #282d30;
+  width: fit-content;
+  border-radius: 5px;
+}
+
+.radar-chart-container {
+  @include radar-chart-container;
+}

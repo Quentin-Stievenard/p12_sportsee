@@ -6,6 +6,7 @@ module.exports = {
       spacing: {
         4.5: "18px",
         6.5: "26px",
+        7.5: "30px",
         17: "68px",
         18: "77px",
         19: "87px",
@@ -18,6 +19,9 @@ module.exports = {
         "sportsee-grey": "rgba(251, 251, 251, 1)",
         "sportsee-black": "rgba(32, 37, 58, 1)",
       },
+    },
+    screens: {
+      md: "1380px",
     },
   },
   plugins: [],

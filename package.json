@@ -8,8 +8,11 @@
     "@testing-library/user-event": "^13.5.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-router": "^6.3.0",
+    "react-router-dom": "^6.3.0",
     "react-scripts": "5.0.1",
-    "recharts": "^2.1.12",
+    "recharts": "^2.1.13",
+    "sass": "^1.54.0",
     "sass-loader": "^13.0.2",
     "web-vitals": "^2.1.4",
     "yarn": "^1.22.19"
@@ -22,8 +25,7 @@
   },
   "eslintConfig": {
     "extends": [
-      "react-app",
-      "react-app/jest"
+      "react-app"
     ]
   },
   "browserslist": {
