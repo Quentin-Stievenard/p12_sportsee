@@ -13,6 +13,9 @@ import ScoreChart from "./Charts/ScoreChart/ScoreChart";
 import { AverageSessionsChart } from "./Charts/AverageSessionChart/AverageSessionChart";
 import ActivitiesChart from "./Charts/ActivitiesChart/ActivitiesChart";
 import InfoCardsGroup from "./InfoCardGroup/InfoCardGroup";
+/**
+ * @param  {string} {userId}
+ */
 export default function Cover({ userId }) {
   const { data, isLoading } = useSportSeeApi("firstName", userId);
 

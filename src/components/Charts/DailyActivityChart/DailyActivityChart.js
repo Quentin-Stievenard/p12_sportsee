@@ -10,6 +10,9 @@ import "../../../assets/utils/style/styleVariables.scss";
 
 // scss
 import "./DailyActivityChart.scss";
+/**
+ * @param  {string} {userId}
+ */
 export default function DailyActivityChart({ userId }) {
   const { data, isLoading, error } = useSportSeeApi("daily-activity", userId);
 

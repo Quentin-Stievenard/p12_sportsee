@@ -7,7 +7,9 @@ import {
 
 import "../../../assets/utils/style/styleVariables.scss";
 import "./AverageSessionChart.scss";
-
+/**
+ * @param  {string} {userId}
+ */
 export function AverageSessionsChart({ userId }) {
   const { data, isLoading, error } = useSportSeeApi("average-sessions", userId);
 

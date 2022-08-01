@@ -20,7 +20,10 @@ const UNIT_BY_TYPE = {
   Protéines: "g",
   Lipides: "g",
 };
-
+/**
+ * @param  {string} {type}
+ * @param  {number} {value}
+ */
 export default function InfoCard({ type, value }) {
   return (
     <div className="info-card-container">

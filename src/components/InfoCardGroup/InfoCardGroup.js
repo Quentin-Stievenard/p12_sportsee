@@ -5,7 +5,9 @@ import {
 } from "../../services/hooks/sportSeeAPI";
 import InfoCard from "../InfoCard/InfoCard";
 import "./InfoCardGroup.scss";
-
+/**
+ * @param  {string} {userId}
+ */
 export default function InfoCardsGroup({ userId }) {
   const { data, isLoading, error } = useSportSeeApi("key-data", userId);
 

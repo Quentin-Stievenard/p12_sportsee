@@ -2,7 +2,9 @@ import PropTypes from "prop-types";
 import { Cell, Pie, PieChart } from "recharts";
 import { useSportSeeApi } from "../../../services/hooks/sportSeeAPI";
 import "./ScoreChart.scss";
-
+/**
+ * @param  {string} {userId}
+ */
 export default function ScoreChart({ userId }) {
   const { data, isLoading, error } = useSportSeeApi("today-score", userId);
 

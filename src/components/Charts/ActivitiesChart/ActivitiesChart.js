@@ -15,7 +15,9 @@ const ACTIVITIES_ORDER_IN_CHART = [
   "Energie",
   "Cardio",
 ];
-
+/**
+ * @param  {string} {userId}
+ */
 export default function ActivitiesChart({ userId }) {
   const { data, isLoading, error } = useSportSeeApi("activities", userId);
 

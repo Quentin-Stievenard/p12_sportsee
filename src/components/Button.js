@@ -1,6 +1,10 @@
 import React from "react";
 import PropTypes from "prop-types";
-
+/**
+ * @param  {string} {img}
+ * @param  {function} {onClick
+ * @param  {string} {className}
+ */
 export default function Button({ img, onClick, className }) {
   return (
     <div
