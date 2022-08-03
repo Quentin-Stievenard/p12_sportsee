@@ -1,7 +1,8 @@
 @mixin line-chart-container {
   position: relative;
   background-color: #ff0000;
-  width: fit-content;
+  width: 200px;
+  height: 200px;
   border-radius: 5px;
 
   .title-line-chart {

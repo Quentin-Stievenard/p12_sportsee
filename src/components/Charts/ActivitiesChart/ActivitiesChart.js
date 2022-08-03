@@ -45,8 +45,8 @@ export default function ActivitiesChart({ userId }) {
       <RadarChart
         data={orderedActivities}
         outerRadius={window.innerWidth > 1340 ? "70%" : "60%"}
-        width={258}
-        height={263}
+        width={200}
+        height={200}
       >
         <PolarGrid radialLines={false} />
         <PolarAngleAxis

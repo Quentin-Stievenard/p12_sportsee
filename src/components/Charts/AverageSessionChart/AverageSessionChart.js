@@ -31,8 +31,8 @@ export function AverageSessionsChart({ userId }) {
         data={averageSessions}
         outerRadius="75%"
         margin={{ top: 0, right: 12, bottom: 24, left: 12 }}
-        width={258}
-        height={263}
+        width={200}
+        height={200}
       >
         <XAxis
           dataKey="day"

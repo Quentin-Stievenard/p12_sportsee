@@ -24,25 +24,26 @@ export default function DailyActivityChart({ userId }) {
 
   return (
     <main className="activities-container">
-      <h2>Activité quotidienne</h2>
-
-      <section className="legend-container">
-        <p className="flex items-center">
-          <span className="bg-neutral800 black-dot"></span>
-          Poids (kg)
-        </p>
-        <p className="ml-8 flex items-center">
-          <span className="bg-primary500 red-dot"></span>
-          Calories brûlées (kCal)
-        </p>
-      </section>
+      <div className="flex items-center">
+        <h2>Activité quotidienne</h2>
+        <section className="legend-container">
+          <p className="flex items-center">
+            <span className="bg-neutral800 black-dot"></span>
+            Poids (kg)
+          </p>
+          <p className="ml-8 flex items-center">
+            <span className="bg-primary500 red-dot"></span>
+            Calories brûlées (kCal)
+          </p>
+        </section>
+      </div>
       <BarChart
         data={dailyActivity}
         margin={{ top: 80, right: 48, bottom: 32, left: 48 }}
         barGap={8}
         barCategoryGap="35%"
-        width={835}
-        height={320}
+        width={635}
+        height={250}
       >
         <CartesianGrid strokeDasharray="3 3" vertical={false} />
         <XAxis

@@ -23,7 +23,7 @@ export default function ScoreChart({ userId }) {
     <div className="score-chart-container">
       <h2>Score</h2>
 
-      <PieChart width={258} height={263}>
+      <PieChart width={200} height={200}>
         <Pie
           data={pieData}
           dataKey="value"
